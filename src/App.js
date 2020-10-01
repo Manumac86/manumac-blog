@@ -16,6 +16,7 @@ import AboutPage from "./pages/about/AboutPage";
 import ArticlesListPage from "./pages/articles/ArticlesListPage";
 import ArticlePage from "./pages/article/ArticlePage";
 import HomePage from "./pages/home/HomePage";
+import NotFoundPage from './pages/notFound/notFoundPage'
 
 //Components
 import NavBar from './components/NavBar/NavBar';
@@ -39,6 +40,9 @@ const App = () => {
             </Route>
             <Route path='/article/:name'>
               <ArticlePage />
+            </Route>
+            <Route>
+              <NotFoundPage />
             </Route>
           </Switch>
         </div>
