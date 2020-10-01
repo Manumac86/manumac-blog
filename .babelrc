@@ -1,0 +1,5 @@
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  // See https://github.com/gaearon/react-hot-loader/issues/1227
+  "plugins": ["react-hot-loader/babel"]
+}
